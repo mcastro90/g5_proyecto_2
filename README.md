@@ -1,2 +1,9 @@
-# g5_proyecto_2
-Proyecto 2
+# Instituto Tecnológico de Costa Rica
+# Maestría en Electrónica, Énfasis en Sistemas Empotrados
+# Sistemas Empotrados de Alto Desempeño
+# Prof. MSc. Marco Madrigal Solano
+# II Cuatrimestre 2019
+## Proyecto 2
+## Mario Castro Morera
+## Óscar Dengo Alvarado
+## Alejandro Rodríguez Elizondo
