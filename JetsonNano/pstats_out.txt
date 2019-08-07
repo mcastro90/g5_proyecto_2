@@ -1,0 +1,26 @@
+Welcome to the profile statistics browser.
+prof_jetson_vid1.out% strip
+prof_jetson_vid1.out% sort time
+prof_jetson_vid1.out% stats 10
+Fri Aug  2 21:04:28 2019    prof_jetson_vid1.out
+
+         127855 function calls (124173 primitive calls) in 8.114 seconds
+
+   Ordered by: internal time
+   List reduced from 1352 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      137    3.875    0.028    3.875    0.028 {resize}
+      138    1.855    0.013    1.855    0.013 {method 'read' of 'cv2.VideoCapture' objects}
+      136    0.440    0.003    0.440    0.003 {waitKey}
+      137    0.429    0.003    0.429    0.003 {GaussianBlur}
+       22    0.235    0.011    0.246    0.011 {built-in method _imp.create_dynamic}
+      408    0.181    0.000    0.181    0.000 {imshow}
+      136    0.118    0.001    0.118    0.001 {findContours}
+      137    0.084    0.001    0.084    0.001 {cvtColor}
+        1    0.074    0.074    8.117    8.117 motion_detector.py:6(<module>)
+      172    0.062    0.000    0.062    0.000 {built-in method marshal.loads}
+
+
+prof_jetson_vid1.out% 
+
